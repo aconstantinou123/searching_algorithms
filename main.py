@@ -3,6 +3,9 @@ from binary_search import binary_search
 
 sorted_array = [1, 2, 3, 4, 5, 7, 10, 12, 15, 27, 33]
 
-result = binary_search(10, sorted_array)
-print(result)
+print(linear_search(10, sorted_array))
+
+print(binary_search(4, sorted_array))
+print(binary_search(15, sorted_array))
+print(binary_search(34, sorted_array))
 
